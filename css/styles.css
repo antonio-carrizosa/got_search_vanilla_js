@@ -12,6 +12,7 @@ nav {
     padding: 10px;
     display: flex;
     justify-content: center;
+    align-items: center;
     position: fixed;
     z-index: 1;
 
@@ -57,10 +58,25 @@ nav select {
     flex-direction: row;
     align-items: center;
     margin-left: 25px;
+    margin-right: 25px;
 }
 
 nav select:focus {
     outline: none;
+}
+
+nav .sort {
+    color: white;
+}
+
+nav .sort:hover {
+    cursor: pointer;
+    color: #ee5253;
+}
+
+nav .sort span {
+    color: #ee5253;
+    font-size: 20px;
 }
 
 main {
